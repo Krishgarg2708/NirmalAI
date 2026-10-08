@@ -1,0 +1,6 @@
+{
+  "name": "NirmalAI - Urban Waste Intelligence Platform",
+  "description": "AI-powered Urban Waste Intelligence & Response Platform for Indian cities. Predict recurring hotspots, prioritize incidents, optimize collection routes, and verify cleanups using computer vision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

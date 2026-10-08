@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+.animate-slideDown {
+  animation: slideDown 0.2s ease-out forwards;
+}
+
+/* Custom leaflet map markers */
+.custom-map-pin {
+  background: transparent;
+  border: none;
+}
+
+.hotspot-pin,
+.vehicle-pin,
+.stop-pin {
+  background: transparent;
+  border: none;
+}
